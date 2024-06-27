@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #048484;
+    padding: 16px 0;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1,
+.nav-link,
+.dropdown-menu a{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #048484;
+}
+
+.nav-link,
+.dropdown-menu a{
+    font-size: 12px;
+    letter-spacing: .2em;
+}
+
+.dropdown-menu{
+    background-color: #048484;
+}
+
+.dropdown-menu li a{
+    color:white;
+    text-decoration: none;
+}
+
+#home{
+    padding: 30px;
+}
+
+#carousel{
+    height: 400px;
+    text-align: center;
+}
+
+#carousel img{
+    height: 400px;
+}
+
+#carousel h1{
+    color: #048484;
+    background-color: rgba(255,255,255, 0.75);
+    width: fit-content;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #048484;
+}
+
+.carousel .carousel-control-prev{
+    left: 10%;
+}
+.carousel .carousel-control-next{
+    right: 10%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #048484;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #50a6a8;
+}
+
+.carousel .carousel-indicators button{
+    background-color: #048484;
+    padding: 3px;
+    border: 2px solid #50a6a8;
+    border-radius: 10px;
+}
+
+h2, .card-header, .card-title{
+    font-family: "Open Sans", sans-serif;
+}
+
+.tab-pane{
+    font-family: "Open Sans", sans-serif;
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+}
+
+.btn-primary
+{
+    background-color: #048484;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #048484af;
+}
+
+.card{
+    background-color: #50a6a8;
+    border: none;
+    margin-top: 15px;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-body a{
+    width: 100%;
+}
+
+.nav-tabs{
+    margin-top: 15px;
+}
+
+.nav-tabs .nav-link{
+    color: #048484;
+}
+
+.nav-tabs .nav-link.active{
+    color: #048484;
+}
+
+.card-header, .card-title{
+    color: white;
+    font-weight: bold;
+}
+
+#produtos{
+    padding-bottom: 30px;
+}

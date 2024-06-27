@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Open sans - nav e nome da loja -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!--Raleway - Cards -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Loja Arduíno</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <div class="btn-group">
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item" data-bs-toggle="dropdown">
+                                <a class="nav-link" href="#produtos">Produtos</a>
+                            </li>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li class="dropdown-item">
+                                    <a href="#">Arduínos</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Sensores</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Atuadores</a>
+                                </li>
+                            </ul>
+                            <li class="nav-item" data-bs-toggle="dropdown">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li class="dropdown-item">
+                                    <a href="#">Mande uma mensagem</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Nossas redes sociais</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <div id="carousel" class="carousel carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img src="https://cdn-reichelt.de/bilder/web/xxl_ws/A300/ARDUINO_UNO_01_NEU.png">
+                        <div class="carousel-caption">
+                            <h1>Arduíno Uno</h1>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://br.mouser.com/images/marketingid/2022/img/166335835.png?v=071923.0931">
+                        <div class="carousel-caption">
+                            <h1>Arduíno Nano</h1>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://br.mouser.com/images/marketingid/2012/img/136058322.png?v=070223.1037">
+                        <div class="carousel-caption">
+                            <h1>Arduíno Leonardo</h1>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="https://br.mouser.com/images/marketingid/2016/img/118727040_SparkFun_LilyPad.png?v=070223.0445">
+                        <div class="carousel-caption">
+                            <h1>Arduíno Lilypad</h1>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="container">
+            <h2>Produtos</h2>
+            <nav class="nav nav-tabs">
+                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link" type="button">Sensores</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link active" type="button">Placas arduíno</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Atuadores</button>
+            </nav>
+            <div class="tab-content">
+                <div class="tab-pane" id="aba1">
+                    <div class="row">
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Sensores para arduíno
+                                </header>
+                                <img src="https://d229kd5ey79jzj.cloudfront.net/620/images/620_1_H.png" alt="Imagem de um sensor ultrassônico">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sensor Ultrassônico</h4>
+                                    <p class="card-text">
+                                        O sensor ultrassônico mede a distância até um objeto utilizando ondas sonoras de alta frequência. Ele emite um pulso ultrassônico e calcula o tempo que leva para o eco retornar, determinando assim a distância. Esse sensor é amplamente utilizado em robótica, automação e sistemas de segurança.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Sensores para arduíno
+                                </header>
+                                <img src="https://d229kd5ey79jzj.cloudfront.net/1176/images/1176_1_X.png?20240326091832" alt="Imagem de um sensor LDR">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sensor LDR</h4>
+                                    <p class="card-text">
+                                        O sensor LDR (Light Dependent Resistor) é um dispositivo que varia sua resistência de acordo com a intensidade da luz incidente. Em condições de alta luminosidade, sua resistência diminui, enquanto em ambientes escuros, ela aumenta. Esse sensor é comumente usado em aplicações de automação de iluminação e detectores de presença.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Sensores para arduíno
+                                </header>
+                                <img src="https://d229kd5ey79jzj.cloudfront.net/791/images/791_1_H.png" alt="Imagem de um sensor DHT 11">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sensor DHT11 (Temperatura e umidade)</h4>
+                                    <p class="card-text">
+                                        O sensor DHT11 é um dispositivo de baixo custo que mede temperatura e umidade do ar. Ele utiliza um termistor e um sensor capacitivo de umidade para fornecer leituras digitais precisas. Comumente empregado em projetos de automação residencial e estações meteorológicas, o DHT11 é fácil de usar com microcontroladores como Arduino e Raspberry Pi.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Sensores para arduíno
+                                </header>
+                                <img src="https://hifisac.com/web/image/product.template/1510/image_1024?unique=469da04" alt="Imagem de um sensor de nível de água">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sensor de Nível de Água</h4>
+                                    <p class="card-text">
+                                        O sensor de nível de água para Arduino é um dispositivo que detecta a presença e o nível de líquido em recipientes. Utilizando um conjunto de trilhas condutoras, ele mede a resistência entre as trilhas para determinar o nível de água. Ideal para projetos de automação, como sistemas de irrigação e tanques de água, é fácil de integrar e utilizar com microcontroladores.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane active" id="aba2">
+                    <div class="row">
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Placas Arduíno
+                                </header>
+                                <img src="https://cdn-reichelt.de/bilder/web/xxl_ws/A300/ARDUINO_UNO_01_NEU.png" alt="Imagem de um arduíno uno">
+                                <div class="card-body">
+                                    <h4 class="card-title">Arduíno Uno</h4>
+                                    <p class="card-text">
+                                        O Arduino Uno é uma plataforma de prototipagem eletrônica baseada em um microcontrolador ATmega328P. Com 14 pinos digitais e 6 entradas analógicas, é ideal para projetos DIY e educação em eletrônica. Facilmente programável via USB, suporta uma ampla gama de sensores e atuadores, permitindo a criação de sistemas interativos.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Placas Arduíno
+                                </header>
+                                <img src="https://br.mouser.com/images/marketingid/2022/img/166335835.png?v=071923.0931" alt="Imagem de um arduíno nano">
+                                <div class="card-body">
+                                    <h4 class="card-title">Arduíno Nano</h4>
+                                    <p class="card-text">
+                                        O Arduino Nano é uma pequena e versátil placa de microcontrolador baseada no ATmega328. Compacta, com 14 pinos digitais e 8 entradas analógicas, é ideal para projetos que exigem economia de espaço. Conectável via mini-USB, é amplamente utilizada em protótipos e dispositivos portáteis.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Placas Arduíno
+                                </header>
+                                <img src="https://br.mouser.com/images/marketingid/2012/img/136058322.png?v=070223.1037" alt="Imagem de um arduíno leonardo">
+                                <div class="card-body">
+                                    <h4 class="card-title">Arduíno Leonardo</h4>
+                                    <p class="card-text">
+                                        O Arduino Leonardo é uma placa de microcontrolador baseada no ATmega32u4, destacando-se por sua capacidade de emular um teclado ou mouse via USB. Possui 20 pinos digitais, 12 entradas analógicas e conectividade micro-USB, sendo ideal para projetos que exigem interação direta com o computador. Utilizada amplamente em projetos de automação e dispositivos de interface humana.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Placas Arduíno
+                                </header>
+                                <img src="https://br.mouser.com/images/marketingid/2016/img/118727040_SparkFun_LilyPad.png?v=070223.0445" alt="Imagem de um sensor de um arduíno lilypad">
+                                <div class="card-body">
+                                    <h4 class="card-title">Arduíno Lilypad</h4>
+                                    <p class="card-text">
+                                        O Arduino Lilypad é uma placa de microcontrolador projetada para ser incorporada em tecidos e roupas, tornando-a ideal para projetos de wearables. Baseada no ATmega328P, possui um design circular e costurável com conectores de pino que facilitam a integração com componentes eletrônicos flexíveis. Amplamente utilizada em projetos de moda tecnológica e arte interativa.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="aba3">
+                    <div class="row">
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Atuadores
+                                </header>
+                                <img src="https://cdn-reichelt.de/bilder/web/xxl_ws/A500/LED5MM.png" alt="Imagem de LEDS">
+                                <div class="card-body">
+                                    <h4 class="card-title">LEDs</h4>
+                                    <p class="card-text">
+                                        O LED (Diodo Emissor de Luz) é um componente eletrônico que emite luz quando uma corrente elétrica passa por ele. É altamente eficiente, durável e disponível em várias cores, sendo amplamente utilizado em displays, indicadores e iluminação. Devido ao seu baixo consumo de energia e longa vida útil, é preferido em diversas aplicações tecnológicas.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Atuadores
+                                </header>
+                                <img src="https://www.inventelectronics.com/wp-content/uploads/2015/01/Piezo-Buzzer1.png" alt="Imagem de um buzzer">
+                                <div class="card-body">
+                                    <h4 class="card-title">Buzzer</h4>
+                                    <p class="card-text">
+                                        Um buzzer é um pequeno dispositivo eletromecânico ou piezoelétrico que emite som quando uma corrente elétrica é aplicada. É amplamente utilizado em dispositivos de alarme, temporizadores e sinais sonoros para fornecer feedback auditivo. Seu uso é popular em projetos de Arduino devido à sua simplicidade e eficiência.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Atuadores
+                                </header>
+                                <img src="https://cdn.awsli.com.br/600x700/980/980586/produto/66652720/motor-dc-3-6v-com-caixa-de-reducao-sem-roda-d9a6836a.png" alt="Imagem de um motor DC">
+                                <div class="card-body">
+                                    <h4 class="card-title">Motor DC</h4>
+                                    <p class="card-text">
+                                        Um motor DC (Corrente Contínua) converte energia elétrica em movimento rotacional. Utiliza um comutador para inverter a direção do fluxo de corrente, possibilitando controle de velocidade e direção. É comumente usado em robótica, automação e aplicações industriais devido à sua simplicidade e facilidade de controle.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                            <article class="card card-bg-primary">
+                                <header class="card-header">
+                                    Atuadores
+                                </header>
+                                <img src="https://www.huinfinito.com.br/3994-home_default/fechadura-solenoide-eletronica-12v.jpg" alt="Imagem de uma fechadura eletrônica">
+                                <div class="card-body">
+                                    <h4 class="card-title">Fechadura Eletrônica</h4>
+                                    <p class="card-text">
+                                        Uma fechadura eletrônica é um dispositivo de segurança que utiliza componentes eletrônicos para controlar o acesso a uma porta ou sistema. Pode ser operada por meio de senhas, cartões RFID, aplicativos móveis ou biometria. Oferece conveniência, segurança avançada e histórico de acesso, sendo comum em residências, empresas e edifícios comerciais modernos.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Compre agora</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
