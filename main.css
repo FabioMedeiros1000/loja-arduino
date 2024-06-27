@@ -22,8 +22,13 @@ h1,
     text-transform: uppercase;
 }
 
-h2{
+h2, h3, h4,
+.form-check-label{
     color: #048484;
+}
+
+h4{
+    font-size: 18px;
 }
 
 .nav-link,
@@ -146,4 +151,48 @@ p{
 
 #produtos{
     padding-bottom: 30px;
+}
+
+#contato{
+    padding-bottom: 20px;
+}
+
+#contato h2{
+    padding-bottom: 8px;
+}
+
+#contato h3{
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+#contato img{
+    height: 40px;
+}
+
+#contato .form-control{
+    border: 1px solid #048484;
+    color: #048484;
+}
+
+#contato .form-control::placeholder{
+    color: #048484;
+}
+
+.form-check-input{
+    border-color: #048484;
+}
+
+.form-check-input:checked{
+    background-color: #048484;
+}
+
+footer{
+    background-color: #048484;
+}
+
+footer p{
+    color: white;
+    margin: 0;
+    padding: 12px 0;
 }
