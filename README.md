@@ -25,3 +25,4 @@ Nesse projeto, o objetivo é criar uma loja que vende Arduínos, sensores e atua
 > **Nota**: As redes sociais são fictícias. Ao clicar na logo de uma rede social, a página de login daquela rede será aberta. O botão de enviar não registra informações em nenhum lugar.
 
 ## Link do projeto
+[Loja Arduíno](https://fabio-loja-arduino.vercel.app/)
