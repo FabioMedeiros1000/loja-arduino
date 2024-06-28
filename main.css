@@ -112,6 +112,8 @@ p{
     color: white;
     font-weight: bold;
     border: none;
+    margin-top: 8px;
+    width: 20%;
 }
 
 .btn-primary:hover{
